@@ -1,3 +1,9 @@
-#mainCanvas{
-  background-color: #f3f3f3;
+body {
+  font-family: Roboto;
+  text-align: center;
+  color: #090909;
+  background-color: #ffda96;
+}
+#mainText {
+  font-size: 20px;
 }

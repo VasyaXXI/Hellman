@@ -33,3 +33,5 @@ alice.private_key = diffry(alice.private_key, alice.p , alice.personal_key);//в
 bob.private_key = diffry(bob.private_key, bob.p, bob.personal_key);
 
 console.log(alice.private_key + " = " + bob.private_key);
+document.getElementById("jopa").innerHTML = bob.private_key;
+document.getElementById("pisa").innerHTML = alice.private_key;
